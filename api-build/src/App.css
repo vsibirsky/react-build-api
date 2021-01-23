@@ -97,7 +97,7 @@ input[type='text'] {
 }
 
 .card:hover .card-inner {
-  transform: rotateY(180deg);
+  transform: rotateX(180deg);
 }
 
 .card-front,
@@ -113,7 +113,7 @@ input[type='text'] {
   background-color: #333;
   color: white;
   padding: 20px;
-  transform: rotateY(180deg);
+  transform: rotateX(180deg);
 }
 
 .card li {
