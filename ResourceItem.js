@@ -5,22 +5,34 @@ const ResourceItem = ({ resource }) => {
         <div className='card'>
             <div className='card-inner'>
                 <div className='card-front'>
+                    <h1>{resource.program_name}</h1>
+                    <ul>
+                        <li>
+                            <strong>A program of:</strong> {resource.org_name}
+                        </li>
+                        <li>
+                        <strong>Program Description:</strong> {resource.program_description}
+                        </li>
+                    </ul>
                 <img src={resource.img} alt='' />
                 </div>
                 <div className='card-back'>
                     <h1>{resource.name}</h1>
                     <ul>
                         <li>
-                            <strong>Actor Name:</strong> {resource.portrayed}
+                            <strong>Referral Process:</strong> {resource.referral_process}
                         </li>
                         <li>
-                        <strong>Nickname:</strong> {resource.nickname}
+                        <strong>Referral Email:</strong> {resource.referral_email}
                         </li>
                         <li>
-                        <strong>Birthday:</strong> {resource.birthday}
+                        <strong>Birthday:</strong> {resource.referral_phoneNumber}
                         </li>
                         <li>
-                        <strong>Status:</strong> {resource.status}
+                        <strong>Status:</strong> {resource.program_website}
+                        </li>
+                        <li>
+                        <strong>Application Link:</strong> {resource.application_link}
                         </li>
                     </ul>
                 </div>
@@ -30,4 +42,4 @@ const ResourceItem = ({ resource }) => {
 }
 
 export default ResourceItem
-© 2021 GitHub, Inc.
+
