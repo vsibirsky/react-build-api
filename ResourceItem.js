@@ -14,7 +14,7 @@ const ResourceItem = ({ resource }) => {
                         <strong>Program Description:</strong> {resource.program_description}
                         </li>
                     </ul>
-                <img src={resource.img} alt='' />
+
                 </div>
                 <div className='card-back'>
                     <h1>{resource.name}</h1>
