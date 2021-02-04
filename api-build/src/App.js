@@ -1,15 +1,14 @@
 import React from "react"
 import Header from "./components/ui/Header"
 import './App.css';
-import FindResource from "./components/np_grid/FindResource";
-
+import FindProgram from "./components/np_grid/FindProgram";
 
 
 function App() {
   return (
     <div className="container">
     <Header />
-    <FindResource />
+    <FindProgram />
     </div>
   );
 }
